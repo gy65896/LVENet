@@ -34,4 +34,3 @@ This code contains two modes, i.e., synthetic and real-world enhancement.
 * Run "main.py". 
 * The enhancement result will be saved in the "Result/output" folder.
 
-**
