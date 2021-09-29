@@ -18,7 +18,7 @@ In this work, we design a lightweight convolutional neural network for learning 
 **Figure 2. The flowchart of our proposed low-visibility enhancement network (LVENet). The DS-Conv and DS-DConv represent depthwise separable convolution and depthwise separable deconvolution, respectively.**
 
 ![Fig  3](https://user-images.githubusercontent.com/48637474/135223081-ce2cbf0b-8be1-46b1-8922-c1a9b37fbbb1.png)
-**Usage case of traditional convolution and depthwise separable convolution.**
+**Figure 3. Usage case of traditional convolution and depthwise separable convolution.**
 
 ## 4. Testing
 This code contains two modes, i.e., synthetic and real-world enhancement.
