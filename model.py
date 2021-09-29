@@ -82,19 +82,19 @@ class IEM(nn.Module):
         _,_,H,W = y.size()
         return F.upsample(x,size=(H,W),mode='bilinear')
     def forward(self,x):
-        print(x.shape)
+
         conv1 = self.relu(self.conv_3_3(x))
-        print(conv1.shape)
+
         conv2 = self.relu(self.conv_3_6(conv1))
-        print(conv2.shape)
+
         conv3 = self.relu(self.conv_6_12(conv2))
-        print(conv3.shape)
+
         conv3 = self.relu(self.conv_12_12_1(conv3))
         conv3 = self.relu(self.conv_12_12_2(conv3))
-        print(conv3.shape)
+
         conv3 = self.relu(self.conv_12_12_3(conv3))
         conv4 = self.relu(self.conv_12_6(conv3))
-        print(conv4.shape)
+
         conv5 = self.relu(self.conv_6_3(conv4))
         conv6 = self.relu(self.conv_3_1(conv5))
         

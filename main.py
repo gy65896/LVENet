@@ -71,13 +71,13 @@ def test(argspar, model, epoch = False):
                 
                 print('The ' + name+' Time:' +str(endtime1-starttime)+'s.'+\
                       'PSNR:%.4f'%(tensor_psnr(clear, R_out)))
-                temp = torch.cat((clear, low, L_real, L_out, R_out), dim = 3)
+                temp = R_out#torch.cat((clear, low, L_real, L_out, R_out), dim = 3)
                 temp = tensor2img(temp)
                 if epoch:
-                    cv2.imwrite(argspar.output_test + '/' + files_clear[i][:-4] +'_%d'%(epoch+1)+'.jpg',\
+                    cv2.imwrite(argspar.output_test + '/' + files_clear[i][:-4] +'_%d'%(epoch+1)+files_clear[i][-4:],\
                                 np.clip(temp*255,0.0,255.0))
                 else:
-                    cv2.imwrite(argspar.output_test + '/' + files_clear[i][:-4] +'_our'+'.jpg',\
+                    cv2.imwrite(argspar.output_test + '/' + files_clear[i][:-4] +'_LVENet'+files_clear[i][-4:],\
                                 np.clip(temp*255,0.0,255.0))
     else:
         files_low = os.listdir(argspar.input_testr)
@@ -99,10 +99,10 @@ def test(argspar, model, epoch = False):
                 temp = tensor2img(temp)
                 if epoch:
                 
-                    cv2.imwrite(argspar.output_test + '/' + files_low[i][:-4] +'_%d'%(epoch+1)+'.jpg',\
+                    cv2.imwrite(argspar.output_test + '/' + files_low[i][:-4] +'_%d'%(epoch+1)+files_low[i][-4:],\
                                 np.clip(temp*255,0.0,255.0))
                 else:
-                    cv2.imwrite(argspar.output_test + '/' + files_low[i][:-4] +'_our'+'.jpg',\
+                    cv2.imwrite(argspar.output_test + '/' + files_low[i][:-4] +'_LVENet'+files_low[i][-4:],\
                                 np.clip(temp*255,0.0,255.0))
 
 def train(model, optimizer, cur_epoch, argspar, loader_train_syn):
@@ -151,11 +151,11 @@ if __name__ == '__main__':
     parser.add_argument("--model", type=str, default = "./checkpoint/", help = '模型1保存路径')
 
     
-    parser.add_argument("--syn", type=str, default = False, help = '合成还是真实低照度')
+    parser.add_argument("--syn", type=str, default = True, help = '合成还是真实低照度')
     
     parser.add_argument("--input_tests", type=str, default = "./data/input/syn", help = '测试输入路径')
     parser.add_argument("--input_testr", type=str, default = "./data/input/real", help = '测试输入路径')
-    parser.add_argument("--output_test", type=str, default = "./Result/output", help = '测试输出路径')
+    parser.add_argument("--output_test", type=str, default = "./Result", help = '测试输出路径')
     argspar = parser.parse_args()
     
     print("\n低照度增强网络")
