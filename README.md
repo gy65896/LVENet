@@ -1,4 +1,4 @@
-# Lightweight Deep Network-Enabled Real-Time Low-Visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance 【IEEE Access】
+# Lightweight Deep Network-Enabled Real-Time Low-Visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance [IEEE Access]
 
 [**[paper]**](https://www.researchgate.net/profile/Wen-Liu-41/publication/354542130_Lightweight_Deep_Network-Enabled_Real-Time_Low-Visibility_Enhancement_for_Promoting_Vessel_Detection_in_Maritime_Video_Surveillance/links/613ea85c01846e45ef44faff/Lightweight-Deep-Network-Enabled-Real-Time-Low-Visibility-Enhancement-for-Promoting-Vessel-Detection-in-Maritime-Video-Surveillance.pdf)
 
