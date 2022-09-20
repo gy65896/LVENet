@@ -28,7 +28,7 @@ In this work, we design a lightweight convolutional neural network for learning 
 * The trained model parameters will be saved in "checkpoint/". 
 
 ## 5. Testing
-This code contains two modes, i.e., synthetic and real-world enhancement. [**[cknz]**](https://pan.baidu.com/s/1WzCu2w6O5bc1hJjX9Lk5kg)
+This code contains two modes, i.e., synthetic and real-world enhancement. [**[l6jq]**](https://pan.baidu.com/s/1u5qh5ipAwq5kGKVPlcw2_w)
 ### Synthetic Enhancement
 * Put the low-light image in the "data/input/syn" folder.
 * Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')".
