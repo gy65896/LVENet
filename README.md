@@ -22,7 +22,7 @@ In this work, we design a lightweight convolutional neural network for learning 
 ## 4. Training
 * Put the Train images in the "data/train/syn" folder
 * Put the Test image in the "data/input/syn" folder
-* Run "data/img/prepare_patches.py". 
+* Run "data/img/prepare_patches.py" to generate the "train_syn.h5". 
 * Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')"
 * Run "main.py". 
 * The trained model parameters will be saved in "checkpoint/". 
