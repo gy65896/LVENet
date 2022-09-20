@@ -20,7 +20,7 @@ In this work, we design a lightweight convolutional neural network for learning 
 ![Fig  3](https://user-images.githubusercontent.com/48637474/135223081-ce2cbf0b-8be1-46b1-8922-c1a9b37fbbb1.png)
 **Figure 3. Usage case of traditional convolution and depthwise separable convolution.**
 ## 4. Training
-* Put the Train images in the "data/train/syn" folder.
+* Put the Train images in the "data/train/syn" folder. 
 * Put the Test image in the "data/input/syn" folder.
 * Run "data/img/prepare_patches.py" to generate the "train_syn.h5". 
 * Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')".
@@ -28,7 +28,7 @@ In this work, we design a lightweight convolutional neural network for learning 
 * The trained model parameters will be saved in "checkpoint/". 
 
 ## 5. Testing
-This code contains two modes, i.e., synthetic and real-world enhancement.
+This code contains two modes, i.e., synthetic and real-world enhancement. [**[cknz]**](https://pan.baidu.com/s/1WzCu2w6O5bc1hJjX9Lk5kg)
 ### Synthetic Enhancement
 * Put the low-light image in the "data/input/syn" folder.
 * Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')".
