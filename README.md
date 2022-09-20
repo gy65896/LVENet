@@ -20,26 +20,26 @@ In this work, we design a lightweight convolutional neural network for learning 
 ![Fig  3](https://user-images.githubusercontent.com/48637474/135223081-ce2cbf0b-8be1-46b1-8922-c1a9b37fbbb1.png)
 **Figure 3. Usage case of traditional convolution and depthwise separable convolution.**
 ## 4. Training
-* Put the Train images in the "data/train/syn" folder
-* Put the Test image in the "data/input/syn" folder
+* Put the Train images in the "data/train/syn" folder.
+* Put the Test image in the "data/input/syn" folder.
 * Run "data/img/prepare_patches.py" to generate the "train_syn.h5". 
-* Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')"
+* Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')".
 * Run "main.py". 
 * The trained model parameters will be saved in "checkpoint/". 
 
 ## 5. Testing
 This code contains two modes, i.e., synthetic and real-world enhancement.
 ### Synthetic Enhancement
-* Put the low-light image in the "data/input/syn" folder
-* Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')"
-* Modify the 154 lines of code in "main.py" to "parser.add_argument("--syn", type=str, default = True, help = 'syn or real')"
+* Put the low-light image in the "data/input/syn" folder.
+* Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')".
+* Modify the 154 lines of code in "main.py" to "parser.add_argument("--syn", type=str, default = True, help = 'syn or real')".
 * Run "main.py". 
 * The enhancement result will be saved in the "Result/output" folder.
 
 ### Real-World Enhancement
 * Put the low-light image in the "data/input/real" folder.
-* Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')"
-* Modify the 154 lines of code in "main.py" to "parser.add_argument("--syn", type=str, default = False, help = 'syn or real')"
+* Modify the 145 lines of code in "main.py" to "parser.add_argument("--train", type=str, default =  True, help = '训练还是测试')".
+* Modify the 154 lines of code in "main.py" to "parser.add_argument("--syn", type=str, default = False, help = 'syn or real')".
 * Run "main.py". 
 * The enhancement result will be saved in the "Result/output" folder.
 
