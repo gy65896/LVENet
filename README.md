@@ -1,7 +1,7 @@
 # [JON 2022] Lightweight Deep Network-Enabled Real-Time Low-Visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance 
 
 ---
->**Lightweight Deep Network-Enabled Real-Time Low-Visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance [[paper](https://www.researchgate.net/profile/Wen-Liu-41/publication/354542130_Lightweight_Deep_Network-Enabled_Real-Time_Low-Visibility_Enhancement_for_Promoting_Vessel_Detection_in_Maritime_Video_Surveillance/links/613ea85c01846e45ef44faff/Lightweight-Deep-Network-Enabled-Real-Time-Low-Visibility-Enhancement-for-Promoting-Vessel-Detection-in-Maritime-Video-Surveillance.pdf)]**<br> Yu Guo, Yuxu Lu, [Ryan Wen Liu<sup>*</sup>](http://mipc.whut.edu.cn/index.html) (* indicates corresponding author) <br> 
+>**Lightweight Deep Network-Enabled Real-Time Low-Visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance [[paper](https://www.researchgate.net/profile/Wen-Liu-41/publication/354542130_Lightweight_Deep_Network-Enabled_Real-Time_Low-Visibility_Enhancement_for_Promoting_Vessel_Detection_in_Maritime_Video_Surveillance/links/613ea85c01846e45ef44faff/Lightweight-Deep-Network-Enabled-Real-Time-Low-Visibility-Enhancement-for-Promoting-Vessel-Detection-in-Maritime-Video-Surveillance.pdf)]**<br> [Yu Guo](https://gy65896.github.io/), Yuxu Lu, [Ryan Wen Liu<sup>*</sup>](http://mipc.whut.edu.cn/index.html) (* indicates corresponding author) <br> 
 >Journal of Navigation
 
 ## Requirement ##
