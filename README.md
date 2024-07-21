@@ -5,7 +5,7 @@
 [![Paper](https://img.shields.io/badge/LVENet-Paper-red.svg)]([https://arxiv.org/abs/2407.04621](https://www.researchgate.net/profile/Wen-Liu-41/publication/354542130_Lightweight_Deep_Network-Enabled_Real-Time_Low-Visibility_Enhancement_for_Promoting_Vessel_Detection_in_Maritime_Video_Surveillance/links/613ea85c01846e45ef44faff/Lightweight-Deep-Network-Enabled-Real-Time-Low-Visibility-Enhancement-for-Promoting-Vessel-Detection-in-Maritime-Video-Surveillance.pdf))
 
 </div>
-1
+
 ---
 >**Lightweight Deep Network-Enabled Real-Time Low-Visibility Enhancement for Promoting Vessel Detection in Maritime Video Surveillance**<br>  [Yu Guo](https://scholar.google.com/citations?user=klYz-acAAAAJ&hl=zh-CN)<sup>†</sup>, [Yuxu Lu](https://scholar.google.com.hk/citations?user=XXge2_0AAAAJ&hl=zh-CN)<sup>†</sup>, [Ryan Wen Liu](http://mipc.whut.edu.cn/index.html)<sup>* </sup> <br>
 († Co-first Author, * Corresponding Author)<br>
